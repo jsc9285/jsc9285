@@ -1,11 +1,11 @@
 
 public class Main {
 	
-	public static int fibonacci(int number) //ÇÇº¸³ªÄ¡ ¼ö¿­¿¡¼­ ¸î¹øÂ° ¼ıÀÚ°¡ °ªÀÌ ¹«¾ùÀÎÁö ¾Ë¾Æ³»´Â ÇÔ¼ö(¹İº¹ÇÔ¼ö)
+	public static int fibonacci(int number) //í”¼ë³´ë‚˜ì¹˜ ìˆ˜ì—´ì—ì„œ ëª‡ë²ˆì§¸ ìˆ«ìê°€ ê°’ì´ ë¬´ì—‡ì¸ì§€ ì•Œì•„ë‚´ëŠ” í•¨ìˆ˜(ë°˜ë³µí•¨ìˆ˜)
 	{
 		int one = 1;
 		int two = 1;
-		int result = -1;  //¹®Á¦°¡ ¹ß»ıÇßÀ» ¶§ ¹İÈ¯ °ª
+		int result = -1;  //ë¬¸ì œê°€ ë°œìƒí–ˆì„ ë•Œ ë°˜í™˜ ê°’
 		
 		if(number == 1)
 		{
@@ -19,7 +19,7 @@ public class Main {
 		{
 			for(int i = 2; i < number; i++)
 			{
-				result = one + two;  //ÇÇº¸³ªÄ¡ÀÇ ÇÑÄ­ ¾¿ ÀÌµ¿½ÃÅ°´Â ·ÎÁ÷
+				result = one + two;  //í”¼ë³´ë‚˜ì¹˜ì˜ í•œì¹¸ ì”© ì´ë™ì‹œí‚¤ëŠ” ë¡œì§
 				one = two;
 				two = result;
 			}
@@ -30,7 +30,7 @@ public class Main {
 	public static void main(String[] args) {
 		
 
-		System.out.println("ÇÇº¸³ªÄ¡ ¼ö¿­ÀÇ 10¹øÂ° ¿ø¼Ò´Â " + fibonacci(10) + "ÀÔ´Ï´Ù.");
+		System.out.println("í”¼ë³´ë‚˜ì¹˜ ìˆ˜ì—´ì˜ 10ë²ˆì§¸ ì›ì†ŒëŠ” " + fibonacci(10) + "ì…ë‹ˆë‹¤.");
 	}
 
 }

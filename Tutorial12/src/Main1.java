@@ -1,7 +1,7 @@
 
 public class Main1 {
 	
-	public static int fibonacci(int number) //ÇÇº¸³ªÄ¡ ¼ö¿­¿¡¼­ ¸î¹øÂ° ¼ıÀÚ°¡ °ªÀÌ ¹«¾ùÀÎÁö ¾Ë¾Æ³»´Â ÇÔ¼ö(Àç±ÍÇÔ¼ö)
+	public static int fibonacci(int number) //í”¼ë³´ë‚˜ì¹˜ ìˆ˜ì—´ì—ì„œ ëª‡ë²ˆì§¸ ìˆ«ìê°€ ê°’ì´ ë¬´ì—‡ì¸ì§€ ì•Œì•„ë‚´ëŠ” í•¨ìˆ˜(ì¬ê·€í•¨ìˆ˜)
 	{
 		if(number == 1)
 		{
@@ -20,7 +20,8 @@ public class Main1 {
 	public static void main(String[] args) {
 		
 
-		System.out.println("ÇÇº¸³ªÄ¡ ¼ö¿­ÀÇ 10¹øÂ° ¿ø¼Ò´Â " + fibonacci(10) + "ÀÔ´Ï´Ù.");
+		System.out.println("í”¼ë³´ë‚˜ì¹˜ ìˆ˜ì—´ì˜ 10ë²ˆì§¸ ì›ì†ŒëŠ” " + fibonacci(10) + "ì…ë‹ˆë‹¤.");
 	}
 
 }
+
