@@ -30,7 +30,26 @@
 			document.write('아가야');
 		}
 		
+		/* 70이상을 if로 쓰고 내림차순으로 하면 더 로직이 간단하고 좋다 */
 		
+		/* if(myAge >= 70) {
+	      document.write('어르신');
+	   } else if (myAge >= 60) {
+	      document.write(myAge + '? ' + '친구지(60)');
+	   } else if (myAge >= 50) {
+	      document.write(myAge + '? ' + '친구지(50)');
+	   } else if (myAge >= 40) {
+	      document.write(myAge + '? ' + '친구지(40)');
+	   } else if (myAge >= 30) {
+	      document.write(myAge + '? ' + '친구지(30)');
+	   } else if (myAge >= 20) {
+	      document.write(myAge + '? ' + '친구지(20)');
+	   } else if (myAge >= 10) {
+	      document.write(myAge + '? ' + '친구지(10)');
+	   } else {
+	      document.write(myAge + '? ' + '아기지');
+	   } */
+
 </script>
 
 </head>
