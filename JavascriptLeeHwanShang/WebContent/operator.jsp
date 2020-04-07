@@ -7,21 +7,30 @@
 	<title>Insert title here</title>
 	
 <script type="text/javascript">
-	document.write('이건 출력문이구나' + '<br/>')
+
+	var firstNum = 10;
+	var secondNum = 7;
+	var result = 0;
 	
-	/* 표현식
-	var 변수명; */
+	result = firstNum + secondNum;
+	document.write(result + '<br/>');
 	
-	var num = 10;
-	var sum = num + 2;
+	result = firstNum - secondNum;
+	document.write(result + '<br/>');
 	
-	document.write(sum);
+	result = firstNum * secondNum;
+	document.write(result + '<br/>');
 	
-	var testStr = '자바';
-	var txt1 = "스크립트";
+	result = firstNum / secondNum;
+	document.write(result + '<br/>');
 	
-	/* document.writeln(1234); */
-	document.write(testStr + txt1);
+	result = firstNum % secondNum;
+	document.write(result + '<br/>');
+	
+	result = result + firstNum;
+	
+	document.write(result);
+
 </script>
 
 </head>
