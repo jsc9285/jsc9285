@@ -39,7 +39,7 @@
 			<li>
 				previousSibling
 			</li>
-			<li id="last">
+			<li>
 				nextSibling
 			</li>
 		</ul>
@@ -47,16 +47,26 @@
 </body>
 
 <script type="text/javascript">
-	var myObj1 = document.getElementById('title');
-	var myObj2 = document.getElementById('title2');
-	var myObj3 = document.getElementById('list');
-	var myObj4 = document.getElementById('last');
+
+	var ulObjArr = document.getElementsByTagName('ul');
+	var myObj = ulObjArr[1];
 	
-	myObj1.style.color = 'red';
-	myObj2.style.border = '1px dotted gold';
-	myObj3.style.fontSize = '10px';
-	myObj3.style.textAlign = 'center';
-	myObj4.style.background = 'hotpink';
+	var liObjArr = myObj.getElementsByTagName('li');
+	var myObj2 = liObjArr[1];
+	
+	myObj2.style.border = '1px solid red';
+	
+	
+	
+	/* 강사님 코드
+	var ulObjList = document.getElementsByTagName('ul');
+	var myLiObj = ulObjArr[1].getElementsByTagName('ul')[1];
+	
+	myLiObj.style.border =  '1px solid red'; */
 </script>
 
 </html>
+
+
+
+
