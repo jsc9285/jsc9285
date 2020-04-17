@@ -32,9 +32,17 @@
 	var divObjList = childObjList[1].children;
 	
 	function firstButtonFnc() {
-		childObjList[0].style.border = '1px solid blue';
+		var colorList = ['blue', 'red', 'yellow'];
+		
+		for (var i = 0; i < colorList.length; i++) {
+			childObjList[i].style.border = '1px solid ' + colorList[i];
+		}
+		
+		/* childObjList[0].style.border = '1px solid blue';
 		childObjList[1].style.border = '1px solid red';
-		childObjList[2].style.border = '1px solid yellow';
+		childObjList[2].style.border = '1px solid yellow'; */
+		/* 이렇게 배열에 색깔을 넣어서 for문을 돌릴 수 있다 */
+		/* 아니면 math.random으로 색을 랜덤으로 줄 수도 있다 */
 	}
 	
 	function secondButtonFnc() {
